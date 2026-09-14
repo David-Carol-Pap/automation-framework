@@ -22,7 +22,7 @@ public class Login_PO extends Base_PO {
 
     public void navigateTo_WebDriverUniversity_Login_Page()
     {
-        navigate_To_URL(Global_Vars.WEBDRIVER_UNIVERSITY_HOMEPAGE_URL + " /Login-Portal/index.html?");
+        navigate_To_URL(Global_Vars.WEBDRIVER_UNIVERSITY_HOMEPAGE_URL + "/Login-Portal/index.html?");
     }
 
     public void setUsername(String username)
